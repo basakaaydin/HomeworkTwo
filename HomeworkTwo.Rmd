@@ -62,7 +62,15 @@ wizards[1]
 **Soru 7** `wizards` vektöründeki Fred, George ve Sirius isimlerini Hermione, Ginny ve Malfoy isimleri ile değiştiriniz.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c('harry','ron','fred','george','sirius')
+wizards[3] <- 'hermione'
+wizards
+wizards <- c('harry','ron','fred','george','sirius')
+wizards[4] <- 'ginny'
+wizards
+wizards <- c('harry','ron','fred','george','sirius')
+wizards[5] <- 'malfoy'
+wizards
 ```
 
 **Soru 8** Harry Potter okumamış biri bu karakterlerin kimler olduğunu bilmek için etiketlere ihtiyaç duyar.
