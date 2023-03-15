@@ -1,6 +1,7 @@
 ---
-title: 'Ödev 2'
-author: "Buraya Ad-Soyad ve öğrenci numaranızı yazınız"
+title: "Ödev 2"
+author: "Başak Aydın/21080560"
+output: pdf_document
 ---
 
 ```{r global_options, include=FALSE}
@@ -15,7 +16,7 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 **Soru 1** Ocak ayında kaç dakika olduğunu hesaplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+31*1440
 ```
 
 **Soru 2** 3 8 1 4 1 5 9 2 6 12 42 sayılarını *toplama işareti kullanmadan* toplayınız.
