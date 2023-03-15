@@ -36,7 +36,8 @@ x
 **Soru 4** `"Mülkiye!"` metnini tekrar tekrar yazmadan R'ın bunu 23 defa ekrana yazdırmasını nasıl sağlarız?
 
 ```{r}
-# Cevabınızı buraya yazınız!
+y <- c("Mülkiye!")
+rep(y, 23)
 ```
 
 **Soru 5** `wizards` ve `ranking` adında iki vektör yaratınız.
