@@ -44,7 +44,11 @@ rep(y, 23)
 `wizards`, Harry, Ron, Fred, George ve Sirius isimlerini, `ranking` ise 4, 2, 5, 1, 3 sayılarını içersin.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c('harry','ron','george','fred','sirius')
+wizards
+ranking <- c('4','2','5','1','3')
+ranking
+
 ```
 
 **Soru 6** `wizards` vektörünün üçünçü ve birinci elemanını yazdırınız.
