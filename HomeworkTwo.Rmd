@@ -78,7 +78,10 @@ wizards
 Sonuçları görüntüleyiniz.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c('harry','ron','hermione','ginny','malfoy')
+wizards
+names(wizards) <- c('lead','friend','friend','wife','rival')
+wizards
 ```
 
 **Soru 9** İstatistik II ara sınavına 27 öğrenci girmiştir.
