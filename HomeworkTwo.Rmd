@@ -54,7 +54,9 @@ ranking
 **Soru 6** `wizards` vektörünün üçünçü ve birinci elemanını yazdırınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+wizards <- c('harry','ron','fred','george','sirius')
+wizards[3]
+wizards[1]
 ```
 
 **Soru 7** `wizards` vektöründeki Fred, George ve Sirius isimlerini Hermione, Ginny ve Malfoy isimleri ile değiştiriniz.
