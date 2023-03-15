@@ -29,7 +29,8 @@ sum(x)
 **Soru 3** `x` adında 1, 0.9, ..., 0, -0.1, ..., -0.9, -1 serisini içeren bir vektör yaratınız ve sonucu yazdırınız.
 
 ```{r}
-x <- c(1,0,-1)
+x <- seq(-1,1, by = 0.1)
+x
 ```
 
 **Soru 4** `"Mülkiye!"` metnini tekrar tekrar yazmadan R'ın bunu 23 defa ekrana yazdırmasını nasıl sağlarız?
