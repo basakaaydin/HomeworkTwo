@@ -90,7 +90,11 @@ Sınav notlarını `scores` isimli bir vektöre kaydediniz.
 Sınav notlarının ortalama, medyan ve aralığını hesaplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+scores <- c(18,95,76,90,84,83,80,79,63,76,55,78,90,81,42,88,89,92,73,83,72,85,66,77,82,99,87)
+scores
+mean(scores)
+median(scores)
+range(scores)
 ```
 
 **Soru 10** 2017'de Nilay'ın yıllık geliri 22000TL, toplam giderleri 3000TL'dir.
