@@ -22,13 +22,14 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 **Soru 2** 3 8 1 4 1 5 9 2 6 12 42 sayılarını *toplama işareti kullanmadan* toplayınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+x <- c(3,8,1,4,1,5,9,2,6,12,42)
+sum(x)
 ```
 
 **Soru 3** `x` adında 1, 0.9, ..., 0, -0.1, ..., -0.9, -1 serisini içeren bir vektör yaratınız ve sonucu yazdırınız.
 
 ```{r}
-# Cevabınızı buraya yazınız!
+x <- c(1,0,-1)
 ```
 
 **Soru 4** `"Mülkiye!"` metnini tekrar tekrar yazmadan R'ın bunu 23 defa ekrana yazdırmasını nasıl sağlarız?
